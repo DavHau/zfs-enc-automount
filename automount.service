@@ -3,7 +3,7 @@ Description=Automount Encrypted Dataset
 After=network-online.target
 
 # include all services here which must wait for the mount
-Before=pve-guessts.service nfs-server.service
+Before=pve-guests.service nfs-server.service
 
 [Service]
 Type=simple
